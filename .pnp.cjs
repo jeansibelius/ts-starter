@@ -30,6 +30,8 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/eslint-plugin", "virtual:b5167e5e4747e0c9a8d2e5560aad212c53a595f8a3a0617920669cc4f376b5abd24e2f6d1d76760050e6ba6d9b151f3bb72d07d33bf54b0a9d63b5385d89fbb5#npm:6.21.0"],\
           ["@typescript-eslint/parser", "virtual:b5167e5e4747e0c9a8d2e5560aad212c53a595f8a3a0617920669cc4f376b5abd24e2f6d1d76760050e6ba6d9b151f3bb72d07d33bf54b0a9d63b5385d89fbb5#npm:6.21.0"],\
           ["eslint", "npm:8.57.0"],\
+          ["prettier", "npm:3.3.2"],\
+          ["tsc", "npm:2.0.4"],\
           ["tsx", "npm:4.16.0"],\
           ["typescript", "patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=379a07"]\
         ],\
@@ -2099,6 +2101,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["prettier", [\
+      ["npm:3.3.2", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.3.2-efeafcaa4b/node_modules/prettier/",\
+        "packageDependencies": [\
+          ["prettier", "npm:3.3.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["proc-log", [\
       ["npm:3.0.0", {\
         "packageLocation": "../../.yarn/berry/cache/proc-log-npm-3.0.0-a8c21c2f0f-10c0.zip/node_modules/proc-log/",\
@@ -2442,10 +2453,21 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/eslint-plugin", "virtual:b5167e5e4747e0c9a8d2e5560aad212c53a595f8a3a0617920669cc4f376b5abd24e2f6d1d76760050e6ba6d9b151f3bb72d07d33bf54b0a9d63b5385d89fbb5#npm:6.21.0"],\
           ["@typescript-eslint/parser", "virtual:b5167e5e4747e0c9a8d2e5560aad212c53a595f8a3a0617920669cc4f376b5abd24e2f6d1d76760050e6ba6d9b151f3bb72d07d33bf54b0a9d63b5385d89fbb5#npm:6.21.0"],\
           ["eslint", "npm:8.57.0"],\
+          ["prettier", "npm:3.3.2"],\
+          ["tsc", "npm:2.0.4"],\
           ["tsx", "npm:4.16.0"],\
           ["typescript", "patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=379a07"]\
         ],\
         "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["tsc", [\
+      ["npm:2.0.4", {\
+        "packageLocation": "../../.yarn/berry/cache/tsc-npm-2.0.4-e331b066cb-10c0.zip/node_modules/tsc/",\
+        "packageDependencies": [\
+          ["tsc", "npm:2.0.4"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["tsx", [\
