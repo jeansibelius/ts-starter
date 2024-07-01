@@ -13,3 +13,5 @@ Quick starter repository.
 ### Dev
 
 - [tsx](https://tsx.is/): run TypeScript (instead of building and running with node)
+- [eslint](https://eslint.org/): linter
+  - [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
